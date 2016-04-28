@@ -3,17 +3,86 @@
 <head>
 	<meta charset="UTF-8">
 	<title>md test</title>
-	<link rel="stylesheet" href="./node_modules/materialize-css/bin/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+	<link rel="stylesheet" href="./node_modules/material-design-lite/material.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-	
+	<!-- Event card -->
+	<style>
+	.demo-card-event.mdl-card {
+	  background: #3E4EB8;
+	}
+	.demo-card-event > .mdl-card__actions {
+	  border-color: rgba(255, 255, 255, 0.2);
+	}
+	.demo-card-event > .mdl-card__title {
+	  align-items: flex-start;
+	}
+	.demo-card-event > .mdl-card__title > h4 {
+	  margin-top: 0;
+	}
+	.demo-card-event > .mdl-card__actions {
+	  display: flex;
+	  box-sizing:border-box;
+	  align-items: center;
+	}
+	.demo-card-event > .mdl-card__actions > .material-icons {
+	  padding-right: 10px;
+	}
+	.demo-card-event > .mdl-card__title,
+	.demo-card-event > .mdl-card__actions,
+	.demo-card-event > .mdl-card__actions > .mdl-button {
+	  color: #fff;
+	}
 	</style>
+
 
 	
 </head>
 <body>
 	
+	<div class="mdl-card mdl-shadow--4dp">
+		<div class="personal-info">
+			<div class="mdl-card__media">
+			<img src="skytower.jpg" width="173" height="157" border="0" alt="" style="padding:10px;">
+			</div>
+			<div class="mdl-card__supporting-text">
+				<h2>Orlando Arteaga González</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				<h4>Tibas, San Jose, Costa Rica</h4>
+				<h6>Birth: 02/27/1969 (47 years old)</h6>
+				<h6>Blood type <b>AB+</b> </h6>
+			</div>
+		</div>
+
+		<div class="demo-card-event mdl-card mdl-shadow--2dp">
+			<div class="mdl-card__title mdl-card--expand">
+				<h3>Call to</h3>
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<h4>
+					Pamela
+				</h4>
+				<span>wife</span>
+				<div class="mdl-layout-spacer"></div>
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+				  <i class="material-icons">phone</i>
+				</button>
+				
+				<a class="mdl-button mdl-js-button mdl-js-ripple-effect" tel="88148004">
+					+ (506) 8814-8004
+				</a>
+				<div class="mdl-layout-spacer"></div>
+				<a class="mdl-button mdl-js-button mdl-js-ripple-effect" tel="88148004">
+					
+				</a>
+				
+			</div>
+		</div>
+	</div>
 	
-	<script src="./node_modules/materialize-css/bin/materialize.js"></script>
+	<script src="./node_modules/material-design-lite/material.min.js"></script>
 </body>
 </html>
