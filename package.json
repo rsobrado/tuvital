@@ -1,11 +1,14 @@
 {
-  "name": "tuvital",
+  "name": "mtd",
   "version": "1.0.0",
-  "description": "tuvital profile 1.2",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "material-design-lite": "^1.1.3"
+  }
 }
