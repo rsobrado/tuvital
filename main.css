@@ -24,6 +24,9 @@
 	color: #fff;
 }
 
+.mdl-card{
+	width: 100% !important;
+}
 
 .mdl-card__supporting-text h2 {
     line-height: 2;
