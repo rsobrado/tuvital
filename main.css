@@ -23,3 +23,31 @@
 .demo-card-event > .mdl-card__actions > .mdl-button {
 	color: #fff;
 }
+
+
+.mdl-card__supporting-text h2 {
+    line-height: 2;
+    font-size: 1.6em;
+    padding: 0;
+    margin: 0;
+}
+
+.mdl-card__supporting-text {
+    padding: 0 20px;
+}
+
+.mdl-card__supporting-text h4 {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.mdl-card__supporting-text h6 {
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
